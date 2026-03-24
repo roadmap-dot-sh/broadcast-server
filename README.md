@@ -39,3 +39,43 @@ implement this project:
 7. Implement error handling and graceful shutdown of the server.
 
 ## Run Application
+
+### Prerequisites
+
+- Java 11 or higher
+- Maven 3.6 or higher
+
+### Build from source
+
+#### 1. Clone repository
+
+```shell
+git clone 
+cd 
+```
+
+#### 2. Build the project
+
+```shell
+mvn clean package
+```
+
+#### 3. Run the tool
+
+Start server:
+
+```shell
+java -jar target/broadcast-server-1.0-SNAPSHOT.jar start
+```
+
+Client connect:
+
+```shell
+java -jar target/broadcast-server-1.0-SNAPSHOT.jar connect
+```
+
+Connect with custom server URL
+
+```shell
+java -jar target/broadcast-server-1.0-SNAPSHOT.jar connect --url ws://localhost:8000/broadcast
+```
