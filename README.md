@@ -3,7 +3,7 @@
 Build a server that can broadcast messages to connected clients.
 
 Project
-URL: <a href="https://github.com/roadmap-dot-sh/broadcast-server.git">https://github.com/roadmap-dot-sh/broadcast-server.git</a>
+URL: <a href="https://roadmap.sh/projects/broadcast-server">https://roadmap.sh/projects/broadcast-server</a>
 
 ## Goal
 
